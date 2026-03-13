@@ -10,7 +10,7 @@ phone:
   Tel:(514)654-7789
 ---
 
-# Marco **Chartier** CPI
+# Marco **Chartier**
 
 
 <!--
@@ -29,6 +29,27 @@ Supported arguments:
 Ma force professionnelle c'est de combiner l'approche de l'ingénierie à des problèmes de gestion au moyen d'outil technologique. Ainsi, j'ai toujours su capitaliser sur mon aise avec la technologie pour aider les entreprises à mieux numériser leur processus d'affaires. Mon dernier stage dans une entreprise d'intégration de progiciel de gestion intégrée a ouvert la voie sur ce que j'ai envie d'accomplir. Aussi, avoir une soif d'apprendre m'aide à mieux être au fait des nouvelles pratiques dans plusieurs domaines. J'ai aussi développé mes propres outils de travail qui me permettent d'être performant au travail. Je recherche cet équilibre où je peux aider les entreprises à atteindre leur vision stratégique à l'aide d'un environnement numérique claire, efficace et robuste.
 
 ## Expérience de travail
+
+### *Jovaco* `2023-2026`
+
+```
+Montréal
+```
+
+Charger de laboratoire
+- Soutenir les élèves dans la configuration des solutions utilisés dans le cours
+- Répondre aux questions des étudiants quant à la modélisation du processus
+
+### *Jovaco* `2023-2026`
+
+```
+Montréal
+```
+
+Conseiller au support / Analyste fonctionnel
+- Traité les demandes de support N1, N2, N3
+- Planification des tests et analyse en préparation des mises à jour d'application
+- Support des conseillers dans leur projet d'implémentations ERP 
 
 ### *Vokeso* `2021-2023`
 
