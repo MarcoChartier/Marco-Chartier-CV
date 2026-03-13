@@ -30,7 +30,7 @@ Ma force professionnelle c'est de combiner l'approche de l'ingénierie à des pr
 
 ## Expérience de travail
 
-### *Jovaco* `2023-2026`
+### *ETS* `2025-2026`
 
 ```
 Montréal
@@ -84,19 +84,6 @@ Conseiller en sécurité financière
 - Faire l'analyse des besoins financiers
 - Travailler en équipe et faire preuve d'éthique de travail
 
-
-
-### *GLP Hi-tech* `2019`
-
-```
-St-jean-sur-richelieu
-```
-Stagiaire en amélioration continue 
-- Implémenter le module de gestion de l'entrepôt
-- Créer un fichier Excel de visualisation des commandes
-
-
-
 ## Éducation
 
 `2018-2022`
@@ -109,20 +96,14 @@ __Cégep régional de launaudière à l'Assomption__
 
 Technique en comptabilité et gestion
 
-
 ## Projets
 
-### *Vokeso*
+### *JOVACO*
 
-`2023`
-Application d'intelligence d'affaires
-- Documenter par l'exemple pour gagner en clarté
-- Utiliser une approche collaborative et agile pour livrer plus rapidement de la valeur au client
-
-`2023`
-Site web de documentation
-- Avoir un portail à jour de la documentation technique de nos solutions
-- Faciliter la mise à jour et la distribution du contenu
+`2025`
+Automatisation des tâches de support au service client
+- Création de flux Power automate pour mettre à jour les incidents CRM
+- Utilisation de machine learning pour prédire le volume d'incidents client
 
 ### *ETS*
 
@@ -143,17 +124,6 @@ Application d'analyse des implémentations projets
 
 `2022` MB-800 Microsoft Dynamics 365 Business Central Functional Consultant
 - Avoir une expertise et mise à niveau sur les principaux module de Business Central
-
-### *Serenic Software*
-
-`2022` Navipayroll - Payroll Implementation
-- Soutenir les opérations de paie standard
-
-### *Ordre des ingénieurs du Québec*
-
-`2021` Candidats à la profession d'ingénieur
-- Avoir une éthique de travail et protéger les intérêts du public
-
 
 
 <!-- ### Footer
