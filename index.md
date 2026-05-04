@@ -40,7 +40,7 @@ Reconnu pour ma capacité d’apprentissage rapide et mon autonomie, je dévelop
 Montréal
 ```
 
-Charger de laboratoire
+Chargé de laboratoire
 - Soutenir les élèves dans la configuration des solutions utilisés dans le cours
 - Répondre aux questions des étudiants quant à la modélisation et l'amélioration du processus
 
@@ -51,7 +51,7 @@ Montréal
 ```
 
 Conseiller au support / Analyste fonctionnel
-- Traité les demandes de support N1, N2, N3
+- Traiter les demandes de support N1, N2, N3
 - Planification des tests et analyse en préparation des mises à jour d'application
 - Participation à des projets d'optimisation des données système
 
@@ -103,16 +103,16 @@ Technique en comptabilité et gestion
 ### *JOVACO*
 
 `2025`
-Automatisation des tâches de support au service client
-- Création de flux Power automate pour mettre à jour les incidents CRM
+Mise en place d'une gouvernance par les résultats
+- Création d'un tableau de bord pour suivre les objectifs départemental
 - Utilisation de machine learning pour prédire le volume d'incidents client
 
 ### *ETS*
 
 `2022`
-Application d'analyse des implémentations projets
-- Utilisatier des techniques de modélisation et de simulation afin d'évaluer la probabilité d'un résultat
-- Développer en Python pour ses bibliothèques de visualisation et son automatisation
+Création d'une application d'analyse de rentabilité des initiatives technologique
+- Utiliser des techniques de modélisation, de simulation et de rentabilité des initiatives technologique
+- Développement d'un notebook Jupyter pour calculer et visualiser les résultats de la simutilation et de l'analyse
 
 ## Certification
 
@@ -120,14 +120,23 @@ Application d'analyse des implémentations projets
 
 `2023` Entry level business analyst
 - Avoir une connaissance des 50 outils de l'analyste d'affaire
-- Organisatier le processus d'affaire dans l'intégraliter de son cycle de vie
+- Organiser le processus d'affaire dans l'intégralité de son cycle de vie
 
 ### *Microsoft*
 
 `2022` MB-800 Microsoft Dynamics 365 Business Central Functional Consultant
 - Avoir une expertise et mise à niveau sur les principaux module de Business Central
 
+## Compétences
+
+- Dynamics 365 Business Central
+- Dynamics 365 Customer Service
+- Power Bi
+- Power automate
+- Python
+- Modélisation de processus et de données
+- Rédaction technique
 
 <!-- ### Footer
 
-Dernière mise à jour: septembre 2023 -->
+Dernière mise à jour: Mai 2026 -->
