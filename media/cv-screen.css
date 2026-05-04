@@ -260,18 +260,19 @@ code {
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
   font-size: 0.9em;
-  color: var(--text-muted);
-  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--primary-color);
+  background-color: rgba(20, 116, 166, 0.08);
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: 3px;
   float: right;
   margin-left: var(--spacing-md);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (prefers-color-scheme: dark) {
   code {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(20, 116, 166, 0.15);
+    color: #4fa3d1;
   }
 }
 
@@ -477,7 +478,8 @@ hr {
 
   code {
     background-color: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid #1474a6;
+    color: #1474a6;
   }
 
   #contact-info a {
