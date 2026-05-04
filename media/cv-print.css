@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
 html,
 body,
 div,
@@ -91,6 +93,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +108,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +130,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -130,126 +138,203 @@ table {
 
 /* end of reset */
 
+/* ===== CUSTOM STYLES FOR PRINT ===== */
+
+:root {
+  --primary-color: #1474a6;
+  --text-dark: #1a1a1a;
+  --text-light: #333333;
+  --text-muted: #666666;
+  --border-color: #d3d3d3;
+}
+
 body {
-  font: normal normal 400;
-  font-size: 11pt;
-  line-height: 1.5em;
-  /*also written as...  font: normal normal 400 100%/1.5em;*/
-  font-family: "Helvetica", sans-serif;
-  /* margin: 0.5in 0.5in 0.5in 0.5in */
-  /* margin-top: 1em;
-	margin-left: 1em; */
+  font: normal 400 11pt/1.5 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-dark);
+  background-color: white;
+  margin: 0.5in 0.5in 0.5in 0.5in;
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 p strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 em {
   font-style: italic;
 }
 
+/* ===== HEADINGS ===== */
+
 h1 {
-  font-family: "Avenir Next", sans-serif;
+  font-family: 'Merriweather', serif;
   text-align: center;
-  font-size: 50pt;
-  font-weight: lighter;
-  position: relative;
-  line-height: 1.2em;
-  position: relative;
-  /* left: 28%; */
+  font-size: 28pt;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.5em 0 0.7em;
+  color: var(--text-dark);
 }
 
 h1 strong {
-  font-weight: normal !important;
-  line-height: 1em;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
-/* Section headers */
 h2 {
-  font-family: "Avenir Next", sans-serif;
-  font-size: 20pt;
+  font-family: 'Merriweather', serif;
+  font-size: 14pt;
   text-align: center;
-  font-weight: normal;
+  font-weight: 700;
   display: flex;
-  /* line-height: 1.5em; */
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.8em;
+  margin-bottom: 0.6em;
   width: 100%;
-}
-h2:after {
-  border-bottom: 1.7px dashed #d3d3d3;
-  /* height: 0.8em; */
-  margin-left: 10px;
-  content: "";
-  flex: 1;
+  color: var(--text-dark);
 }
 
-h3 strong {
-  /* line-height: 2.5em; */
+h2:before {
+  content: '';
+  flex: 1;
+  height: 1pt;
+  background: linear-gradient(to right, transparent, var(--border-color));
+  order: -1;
+}
+
+h2:after {
+  content: '';
+  flex: 1;
+  height: 1pt;
+  background: linear-gradient(to left, transparent, var(--border-color));
 }
 
 h3 {
-  margin-top: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  color: var(--text-dark);
+  page-break-after: avoid;
 }
+
+/* ===== CODE & DATES ===== */
 
 code {
-  font-family: "Palatino";
-  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: 10pt;
+  color: var(--text-muted);
   float: right;
+  margin-left: 10pt;
+  font-weight: normal;
 }
 
+/* ===== LISTS ===== */
+
 li:before {
-  content: "-";
+  content: "−";
   position: relative;
   left: -0.5em;
+  margin-right: 0.25em;
+  color: var(--primary-color);
 }
 
 li {
-  /*second line indent*/
   padding-left: 2.25em;
   text-indent: -1.25em;
-  /*color: #777;*/
+  margin-bottom: 3pt;
+  color: var(--text-light);
+  page-break-inside: avoid;
 }
+
+/* ===== CONTACT INFO ===== */
 
 #contact-info {
   text-align: center;
-  position: relative;
-  font-weight: lighter;
-  color: #ccc;
-  /* font-family: Menlo,monospace,sans-serif; */
+  font-size: 9pt;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10pt;
+  page-break-inside: avoid;
 }
 
 #contact-info a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: var(--text-dark);
+  font-weight: 500;
 }
 
-@media print {
-  p {
-    page-break-inside: avoid;
-  }
-  h2 {
-    page-break-after: avoid;
-  }
-  h3 {
-    page-break-after: avoid;
-  }
+#contact-info i {
+  margin-right: 2pt;
 }
+
+/* ===== LINKS ===== */
 
 a {
-  text-decoration: none;
-  color: rgb(20, 116, 151);
+  text-decoration: underline;
+  color: var(--text-dark);
+  font-weight: 500;
 }
 
-@media print {
-  hr {
-    page-break-after: always; /* CSS 2 */
-    /* minimal layout disruption: */
-    height: 0.1mm;
-    visibility: hidden;
-  }
+/* ===== MAIN CONTENT ===== */
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1;
+  padding: 0;
+}
+
+/* ===== HR ===== */
+
+hr {
+  page-break-after: always;
+  height: 0.1mm;
+  visibility: hidden;
+}
+
+/* ===== PAGE BREAK RULES ===== */
+
+@page {
+  margin: 0.5in;
+  size: letter;
+}
+
+p {
+  page-break-inside: avoid;
+  orphans: 3;
+  widows: 3;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  page-break-after: avoid;
+}
+
+h3 {
+  page-break-after: avoid;
+}
+
+/* ===== SECTION SPACING ===== */
+
+#content > h2 {
+  margin-top: 1.2em;
+}
+
+#content > h2:first-of-type {
+  margin-top: 0.8em;
 }
