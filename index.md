@@ -26,7 +26,11 @@ Supported arguments:
 ## Analyste d'affaire | ERP et transformation numérique
 ## Sommaire 
 
-Ma force professionnelle c'est de combiner l'approche de l'ingénierie à des problèmes de gestion au moyen d'outil technologique. Ainsi, j'ai toujours su capitaliser sur mon aise avec la technologie pour aider les entreprises à mieux numériser leur processus d'affaires. Mon dernier stage dans une entreprise d'intégration de progiciel de gestion intégrée a ouvert la voie sur ce que j'ai envie d'accomplir. Aussi, avoir une soif d'apprendre m'aide à mieux être au fait des nouvelles pratiques dans plusieurs domaines. J'ai aussi développé mes propres outils de travail qui me permettent d'être performant au travail. Je recherche cet équilibre où je peux aider les entreprises à atteindre leur vision stratégique à l'aide d'un environnement numérique claire, efficace et robuste.
+Professionnel orienté résultats, je combine une approche structurée d’ingénierie avec les enjeux de gestion afin de concevoir des solutions technologiques alignées sur les objectifs d’affaires.
+
+Mon expérience chez Jovaco et à l’ÉTS m’a permis de contribuer à l’optimisation de processus d’affaires, à la réalisation de projets en intelligence d’affaires (BI) ainsi qu’à la modélisation de données dans des environnements ERP, notamment avec Microsoft Dynamics 365 Business Central. J’ai également développé des solutions en Python pour améliorer l’efficacité opérationnelle et soutenir l’analyse de données.
+
+Reconnu pour ma capacité d’apprentissage rapide et mon autonomie, je développe des outils et méthodes de travail qui augmentent la performance et la qualité des livrables. Je souhaite contribuer à des initiatives où la technologie agit comme levier stratégique, en mettant en place des environnements numériques clairs, robustes et évolutifs.
 
 ## Expérience de travail
 
@@ -38,7 +42,7 @@ Montréal
 
 Charger de laboratoire
 - Soutenir les élèves dans la configuration des solutions utilisés dans le cours
-- Répondre aux questions des étudiants quant à la modélisation du processus
+- Répondre aux questions des étudiants quant à la modélisation et l'amélioration du processus
 
 ### *Jovaco* `2023-2026`
 
@@ -49,7 +53,7 @@ Montréal
 Conseiller au support / Analyste fonctionnel
 - Traité les demandes de support N1, N2, N3
 - Planification des tests et analyse en préparation des mises à jour d'application
-- Support des conseillers dans leur projet d'implémentations ERP 
+- Participation à des projets d'optimisation des données système
 
 ### *Vokeso* `2021-2023`
 
@@ -58,10 +62,8 @@ Montréal
 ```
 
 Analyste fonctionnel
-- Faire la configuration et le support lors des implémentations ERP
+- Implémentation de toutes les modules Dynamics 365 Bsiness central
 - Rédiger des documents fonctionnels et techniques liés aux projets
-- Participer activement aux projets internes de l'entreprise
-
 
 ### *General Dynamic* `2021`
 
